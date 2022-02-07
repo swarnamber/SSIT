@@ -20,8 +20,11 @@ public class HandleDropDown {
 		// mouse hover on menu
 		actions.moveToElement(menu).perform();
 		// select sub menu
-		driver.findElement(By.linkText("BENEFITS")).click();
+//		driver.findElement(By.linkText("BENEFITS")).click();
 //		driver.close();
+		
+		
+		
 	}
 
 }

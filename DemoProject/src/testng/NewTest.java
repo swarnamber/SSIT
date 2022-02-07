@@ -20,6 +20,11 @@ public class NewTest {
 	@Test
 	public void enterUrl() {
 		driver.get("https://www.google.co.in/");
+	
+		
+		
+		
+		
 		SoftAssert s = new SoftAssert();
 		s.assertEquals(driver.getTitle(), "xx");
 		driver.navigate().to("https://www.gmail.com/");
